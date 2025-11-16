@@ -841,6 +841,114 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* BEM: Timeline Grid Lines */
+.timeline-grid__line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--grid-line);
+}
+
+.timeline-grid__line--row-1 {
+    top: 0;
+}
+
+.timeline-grid__line--row-2 {
+    top: 60px;
+}
+
+.timeline-grid__line--row-3 {
+    top: 120px;
+}
+
+.timeline-grid__line--row-4 {
+    top: 180px;
+}
+
+.timeline-grid__line--row-5 {
+    top: 240px;
+}
+
+/* BEM: Time Markers */
+.time-marker--mon {
+    left: 0;
+}
+
+.time-marker--tue {
+    left: 200px;
+}
+
+.time-marker--wed {
+    left: 400px;
+}
+
+.time-marker--thu {
+    left: 600px;
+}
+
+.time-marker--fri {
+    left: 800px;
+}
+
+/* BEM: Task Bars */
+.task-bar--design-review {
+    top: 15px;
+    left: 0;
+    width: 120px;
+    background: linear-gradient(135deg, #4361ee, #4895ef);
+}
+
+.task-bar--client-meeting {
+    top: 15px;
+    left: 400px;
+    width: 180px;
+    background: linear-gradient(135deg, #f72585, #ff6b96);
+}
+
+.task-bar--api-integration {
+    top: 75px;
+    left: 200px;
+    width: 150px;
+    background: linear-gradient(135deg, #4cc9f0, #70e4ff);
+}
+
+.task-bar--frontend-dev {
+    top: 75px;
+    left: 600px;
+    width: 200px;
+    background: linear-gradient(135deg, #4361ee, #4895ef);
+}
+
+.task-bar--content-creation {
+    top: 135px;
+    left: 800px;
+    width: 200px;
+    background: linear-gradient(135deg, #f72585, #ff6b96);
+}
+
+.task-bar--bug-fixing {
+    top: 195px;
+    left: 0;
+    width: 180px;
+    background: linear-gradient(135deg, #4cc9f0, #70e4ff);
+}
+
+.task-bar--testing {
+    top: 195px;
+    left: 400px;
+    width: 150px;
+    background: linear-gradient(135deg, #4361ee, #4895ef);
+}
+
+.task-bar--deployment {
+    top: 255px;
+    left: 200px;
+    width: 250px;
+    background: linear-gradient(135deg, #f72585, #ff6b96);
+}
+
+
 /* Footer Area */
 .footer {
     grid-area: footer;
@@ -851,3 +959,4 @@ body {
     font-size: 0.9rem;    
     transition: background 0.3s ease, color 0.3s ease;
 }
+
