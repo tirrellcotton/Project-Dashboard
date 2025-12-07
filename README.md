@@ -11,7 +11,7 @@ The tutorial covers building a complete, production-ready dashboard from the gro
 
 ## 🎯 About This Project
 
-This project management dashboard provides a clean, intuitive interface for tracking projects, team members, and tasks. It features a professional design with modern web technologies and best practices.
+This project management dashboard provides a clean, intuiti ve interface for tracking projects, team members, and tasks. It features a professional design with modern web technologies and best practices.
 
 ### Key Highlights
 
